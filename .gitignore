@@ -1,0 +1,65 @@
+# See https://github.com/github/gitignore/blob/main/Rails.gitignore for details
+
+# Ignore bundler config.
+/.bundle
+
+# Ignore log and temp files.
+/log/*
+!/log/.keep
+/tmp/*
+!/tmp/.keep
+
+# Ignore database.
+/db/*.sqlite3*
+/db/*.sqlite3-journal
+/db/*.sqlite3-*
+
+# Ignore byebug command history file.
+.byebug_history
+
+# Ignore credentials and master key.
+/config/master.key
+/config/credentials.yml.enc
+
+# Ignore node modules and yarn files.
+/node_modules
+/yarn-error.log
+
+# Ignore public assets.
+/public/assets
+/public/packs
+/public/packs-test
+/public/packs-dev
+/public/packs-prod
+/public/packs-staging
+/public/packs-production
+/public/packs-development
+/public/packs-test
+/public/packs-dev
+/public/packs-prod
+/public/packs-staging
+/public/packs-production
+/public/packs-development
+/public/assets
+/public/packs
+/public/packs-test
+/public/packs-dev
+/public/packs-prod
+/public/packs-staging
+/public/packs-production
+/public/packs-development
+
+# Ignore coverage reports.
+/coverage/
+
+# Ignore system test screenshots.
+/tmp/screenshots/
+
+# Ignore dotenv environment variable files.
+.env*
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore VS Code settings
+.vscode/
